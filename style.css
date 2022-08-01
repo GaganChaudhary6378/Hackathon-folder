@@ -1,0 +1,252 @@
+.main{
+    background-image:url("/post-malone-performing-live-4k-5z-1920x1080\ 1.jpg");
+}
+
+.home{
+    position: absolute;
+    width: 57px;
+    height: 24px;
+    left: 900px;
+    top: 0px;
+
+    font-family: 'Actay';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 24px;
+    text-align: right;
+    color: #FFFFFF;
+}
+.home:hover{
+    font-size: large;
+    cursor: pointer;
+    color:yellow;
+    
+}
+.about{
+    position: absolute;
+width: 98px;
+height: 24px;
+left: 1000px;
+top: 0px;
+
+font-family: 'Actay';
+font-style: normal;
+font-weight: 400;
+font-size: 19px;
+line-height: 24px;
+/* identical to box height */
+
+text-align: right;
+
+color: #FFFFFF;
+}
+.about:hover{
+    font-size: large;
+    cursor: pointer;
+    color:yellow;
+    
+}
+.login{
+position: absolute;
+width: 146px;
+height: 24px;
+left: 1150px;
+top: 0px;
+font-family: 'Actay';
+font-style: normal;
+font-weight: 400;
+font-size: 19px;
+line-height: 24px;
+text-align: right;
+color: #FFFFFF;
+text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.login:hover{
+    font-size: large;
+    cursor: pointer;
+    color:yellow;
+    
+}
+
+
+.notification:hover{
+    cursor: pointer;
+}
+.first-head{
+    position: absolute;
+width: 930px;
+height: 242px;
+left: 340px;
+top: 384px;
+
+font-family: 'Humane';
+font-style: normal;
+font-weight: 500;
+font-size: 244px;
+line-height: 242px;
+/* identical to box height */
+
+text-align: center;
+
+border: 2px none #FFFFFF;
+}
+.second-head{
+    position: absolute;
+width: 930px;
+height: 242px;
+left: 330px;
+top: 391px;
+
+font-family: 'Humane';
+font-style: normal;
+font-weight: 500;
+font-size: 244px;
+line-height: 242px;
+/* identical to box height */
+
+text-align: center;
+
+color: #FFFFFF;
+
+}
+.dash{
+position: absolute;
+width: 254.5px;
+height: 57.21px;
+left: 1038.5px;
+top: 631.29px;
+border: 15px  #FFF508;
+}
+.before-head{
+    position: absolute;
+width: 179px;
+height: 80px;
+left: 135px;
+top: 429px;
+
+font-family: 'Actay';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 20px;
+text-align: right;
+
+color: #FFFFFF;
+
+}
+.after-head{
+    position: absolute;
+width: 147px;
+height: 40px;
+left: 1270px;
+top: 487px;
+
+font-family: 'Actay';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 20px;
+text-align: center;
+
+color: #FFFFFF;
+
+}
+.date{
+    position: absolute;
+width: 120px;
+height: 65px;
+left: 700px;
+top: 780px;
+
+font-family: 'Humane';
+font-style: normal;
+font-weight: 600;
+font-size: 50px;
+line-height: 65px;
+text-align: center;
+
+color: #FFFFFF;
+
+}
+.line-1{
+    position: absolute;
+width: 159.01px;
+height: 0px;
+left: 50px;
+top: 220px;
+
+border: 2px solid #FFFFFF;
+transform: matrix(-0.01, -1, -1, 0.01, 0, 0);
+}
+.line-2{
+    position: absolute;
+width: 159.01px;
+height: 0px;
+left: 133.01px;
+top: 140px;
+
+border: 2px solid #FFFFFF;
+transform: rotate(-180deg);
+
+}
+.line-3{
+    position: absolute;
+width: 159.01px;
+height: 0px;
+left: 1350.01px;
+top: 220px;
+
+border: 2px solid #FFFFFF;
+transform: rotate(-89.29deg);
+}
+.line-4{
+    position: absolute;
+width: 159.01px;
+height: 0px;
+left: 1268px;
+top: 140px;
+
+border: 2px solid #FFFFFF;
+}
+.line-5{
+    position: absolute;
+width: 159.01px;
+height: 0px;
+left: 50px;
+top: 830px;
+
+border: 2px solid #FFFFFF;
+transform: rotate(90.71deg);
+}
+.line-6{
+    position: absolute;
+width: 159.01px;
+height: 0px;
+left: 130.01px;
+top: 910px;
+
+border: 2px solid #FFFFFF;
+transform: rotate(-180deg);
+}
+.line-7{
+    position: absolute;
+width: 159.01px;
+height: 0px;
+left: 1350.01px;
+top: 830px;
+
+border: 2px solid #FFFFFF;
+transform: matrix(0.01, 1, 1, -0.01, 0, 0);
+}
+.line-8{
+    
+position: absolute;
+width: 159.01px;
+height: 0px;
+left: 1270px;
+top: 910px;
+
+border: 2px solid #FFFFFF;
+transform: matrix(1, 0, 0, -1, 0, 0);
+}
