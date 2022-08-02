@@ -1,0 +1,39 @@
+.main-Box{
+position: absolute;
+width: 960px;
+height: 157px;
+left:250px;
+top: 100px;
+background: #232323;
+}
+/* .main-Box{
+position: absolute;
+width: 960px;
+height: 157px;
+left:250px;
+top: 100px;
+background: #232323;
+} */
+/* .whiteBox{
+    margin-top: 0px;
+    width: 958px;
+    height: 300px;
+    border: black solid 2px;
+} */
+.firstLine{
+    position: absolute;
+width: 500px;
+height: 55px;
+left: 390px;
+top: 100px;
+
+font-family: 'Superline';
+font-style: normal;
+font-weight: 700;
+font-size: 30px;
+line-height: 55px;
+text-align: right;
+letter-spacing: 0.105em;
+
+color: #FFFFFF;
+}
