@@ -13,10 +13,15 @@
   <div class="navbar">
     <img src="/AUDITOR (1).png">
     <h3 class="home">HOME</h3>
-    <h3 class="about">ABOUT US</h3>
-    <h3 class="login">LOGIN/SIGN UP</h3><span>
-    <img class="notification" src="/Vector.png">&nbsp;&nbsp;
+    <h3 class="about" onclick="location.href='http://127.0.0.1:5500/second.html'">ABOUT US</h3>
+    <h3 class="login" id="paymentForms" onclick="location.href='http://127.0.0.1:5500/payment%20form.html'">LOGIN/SIGN UP</h3>
+    <img class="notification" src="/Vector.png">
     <img class="github" src="/github.png">
+      <input type="checkbox" class="checkbox" id="chk" />
+      <label class="label" for="chk">
+        <h3 class="dark" >Dark</h3>
+        <div class="ball"></div>
+      </label>
   </div>
 <div class="main-head">
   <img class="lineOverTextLeft" src="/line over text left.png">
@@ -54,24 +59,27 @@
 </div>
 </div>
 <main>
+  <!-- For Playlist heading and for first song in the playlist -->
   <div class="playlist">
     <img class="tagline" src="/YOUR JAM.png">
     <img class="taglineTexture" src="/YOUR JAM texture.png">
-    <img class="number1" src="/1.png">
-    <img class="artist1pic" src="/artist 1.png">
-    <h3 class="line1">Double take</h3><br>
-    <h3 class="line2">Dhruv</h3>
-    <h4 class="lyrics1">LYRICS</h4>
-    <img class="trending" src="/Vector lyrics.png">
-    <img class="views" src="/views.png">
-    <h5 class="viewsCount">2.1Mil</h5>
-    <img class="circle" src="/circle for like.png">
-    <img class="like" src="/like button.png">
-    <img class="circle2" src="/circle for like.png">
-    <!-- please change the below line -->
-    <img class="like2" id="redLike" src="/like button.png"> 
-    <img class="straightLine1" src="/straight line.png">  
-    <!-- Excuses -->
+    <div class="Upperstickybar">
+      <img class="number1" src="/1.png">
+      <img class="artist1pic" src="/artist 1.png">
+      <h3 class="line1">Double take</h3><br>
+      <h3 class="line2">Dhruv</h3>
+      <h4 class="lyrics1">LYRICS</h4>
+      <img class="trending" src="/Vector lyrics.png">
+      <img class="views" src="/views.png">
+      <h5 class="viewsCount">2.1Mil</h5>
+      <img class="circle" src="/circle for like.png">
+      <img class="like" src="/like button.png">
+      <img class="circle2" src="/circle for like.png">
+      <!-- please change the below line -->
+      <img class="like2" id="redLike" src="/like button.png"> 
+      <img class="straightLine1" src="/straight line.png">
+    </div>
+    <!-- Excuses, second song in the playlist -->
   <div class="song2">
     <img class="number2" src="/2 image.png">
     <img class="excuses" src="/excuses pic.png">
@@ -87,6 +95,7 @@
     <img class="like4" id="redLike2" src="/like button.png">
     <img class="straightLine2" src="/straight line.png">  
   </div>
+  <!-- Song 3 in the playlist -->
   <div class="song3">
     <img class="number3" src="/number 3.png">
     <img class="midnight" src="/midnight drive.png">
@@ -101,6 +110,7 @@
     <img class="like6" id="redLike3" src="/like button.png">
     <img class="straightLine3" src="/straight line.png">  
   </div>
+  <!-- Song 4 in the playlist -->
   <div class="song4">
     <img class="number4" src="/number 4.png">
     <img class="glimpseOfUs" src="/glimpse of us pic.png">
@@ -116,6 +126,7 @@
     <img class="like8" id="redLike4" src="/like button.png">
     <img class="straightLine4" src="/straight line.png">  
   </div>
+  <!-- Song 5 in the playlist -->
   <div class="song5">
     <img class="number5" src="/number5.png">
     <img class="spaceCadet" src="/space cadet.png">
@@ -130,6 +141,7 @@
     <img class="like10" id="redLike5" src="/like button.png">
   </div>
   </div>
+  <!-- Creating a section for user reviews -->
   <div class="reviews">
     <div class ="cardsArrangement">
       <div class="card">
@@ -165,6 +177,7 @@
         <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsam eos nostrum perspiciatis hic eveniet alias optio, ut reiciendis </p>
       </div>
     </div>
+    <!-- Footer for the website -->
       <div class="container">
         <div class="item">
             <img class="auditor" src="/AUDITOR.png" >
@@ -199,7 +212,7 @@
         </div>
         <div>
             <img class="foll" src="/FOLLOW US.png" >
-        <div class="follow">
+            <div class="follow">
             <div>Instagram</div>
             <div>Facebook</div>
             <div>Discord</div>
@@ -223,7 +236,7 @@
 
 
 
-
+<!-- Adding songs -->
   <!-- End div -->
   </div>
   <audio id="mySong">

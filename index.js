@@ -54,3 +54,25 @@ icon5.onclick=function(){
         icon5.src="like button.png"
     }
 }
+// dark and light theme switch
+let ch = document.chk.children[2];
+let selectTheme=document.getElementById("themeSwitch");
+chk.addEventListener('click',change)
+
+function change(e){
+    if(ch.textContent.includes('Dark')){
+        selectTheme.src="post-malone-performing-live-4k-5z-1920x1080 1.jpg"
+        chk.textContent="Light";
+    }else{
+        selectTheme.src="post-malone-performing-new.png"
+        ch.textContent="Dark";
+    }
+}
+let time = document.getElementById("current-time");
+        
+        setInterval(() => {
+            let d= new Date();
+            time.innerHTML= d.toLocaleTimeString();
+
+        }, 1000);
+    
